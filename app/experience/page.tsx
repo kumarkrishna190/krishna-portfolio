@@ -1,60 +1,12 @@
-import Image from "next/image";
+import PageHeader from "@/components/PageHeader";
 import Section from "@/components/Section";
-import Hero from "@/components/Hero";
 
-export default function Home() {
+export default function Experience() {
   return (
     <>
-      <Hero />
-      <Section title="">
-        <h1 className="text-3xl font-bold mb-2">Krishna Kumar</h1>
-        <p className="text-gray-600 text-lg">Software Engineer and Product Designer</p>
-      </Section>
+      <PageHeader title="Experience" />
 
       <Section title="">
-      <p>
-        <b>Krishna Kumar</b> is an Indian software engineer and <em>technology entrepreneur </em> 
-        known for his work in healthcare software systems, embedded user interfaces, 
-        and real-time data processing applications. He is the founder of <b>IKIGAI APPLICATIONS</b>, 
-        a software venture focused on building specialized applications and tools for data-intensive tracking 
-        and health related use cases.
-        </p>
-      </Section>
-      <hr />
-      <br /> <br />
-      <div className="relative w-full h-72 br-50 rounded-2xl overflow-hidden">
-        <Image
-          src="/images/hero.jpg"
-          alt="Workspace"
-          width={1200}
-          height={600}
-          className="rounded mb-10"
-        />
-      </div>
-      <br /> <br />
-      <Section title="">
-        <h1 className="text-3xl font-bold mb-2">Early life and education</h1>
-        <p className="text-gray-600 text-lg">1st July, 1996 - present</p>
-      </Section>
-
-      <Section title="">
-      <p>
-        <b>Krishna Kumar</b> was born in a small town in <b>Sonebhadra</b> district of Uttar Pradesh, India. 
-        He persued his early education in local schools before moving to a boarding school named <b>Sunbeam English School, Bhagwanpur</b>.
-        Later pursued formal education in engineering and developed from <b>SMVIT (VTU)</b> situated in Bengaluru, Karnataka. 
-        With an early interest in software systems, particularly low-level programming, embedded interfaces, and performance-critical applications,
-        he honed his skills through various projects and internships during his academic years.
-        He also participated in multiple sports activities during his college like basketball, handball, chess and many more.
-        Graduated with a Bachelor's degree, laying a strong foundation for his future endeavors in the tech industry.
-        </p>
-      </Section>
-
-
-      <hr />
-        <br /> <br />
-
-        <Section title="">
-        <h1 className="text-3xl font-bold mb-2">Work Life</h1>
         <a href="https://www.noccarc.com" target="_blank"><h1 className="text-3xl font-bold mb-2 underline">Noccarc Robotics</h1></a>
         <p className="text-gray-600 text-lg">Software Engineer II | 2023 – Present</p>
       
@@ -187,38 +139,39 @@ export default function Home() {
       </Section>
 
       <Section title="">
-        <h1 id="ikigai" className="text-3xl font-bold mb-2 underline">Founded IKIGAI APPLICATIONS</h1>
+        <h1 className="text-3xl font-bold mb-2 underline">Founded IKIGAI APPLICATIONS</h1>
         <p className="text-gray-600 text-lg italic">“Building focused software that quietly powers the world’s most important work.”</p>
       
-            <b>IKIGAI APPLICATIONS</b> is a product-driven technology studio building a new generation of high-leverage software tools for founders, creators, and modern businesses.
+        <b>IKIGAI APPLICATIONS</b> is a product-driven technology studio building a new generation of high-leverage software tools for founders, creators, and modern businesses.
 
-            We focus on identifying deep workflow pain points — places where people lose time, money, or clarity — and turning them into simple, elegant, and scalable products.
-            <br /><br /><br />
-            <b>Our philosophy is inspired by Ikigai:</b>
-            <br />
+        We focus on identifying deep workflow pain points — places where people lose time, money, or clarity — and turning them into simple, elegant, and scalable products.
+        <br /><br /><br />
+        <b>Our philosophy is inspired by Ikigai:</b>
+        <br />
 
-            Building products that sit at the intersection of what people need, what they love to use, and what creates real economic value.
+        Building products that sit at the intersection of what people need, what they love to use, and what creates real economic value.
 
-            Rather than betting on a single product, <b>IKIGAI</b> is structured as a multi-product company, where each application is designed to:
-            <br />
-            <br />
-            <ul>Solve one specific, painful problem</ul>
-            <ul>Be highly focused and easy to adopt</ul>
-            <ul>Scale into a standalone, profitable SaaS</ul>
+        Rather than betting on a single product, <b>IKIGAI</b> is structured as a multi-product company, where each application is designed to:
+        <br />
+        <br />
+        <ul>Solve one specific, painful problem</ul>
+        <ul>Be highly focused and easy to adopt</ul>
+        <ul>Scale into a standalone, profitable SaaS</ul>
 
-            <br /><br />
-            <b>We build across:</b>
-            <br /><br />
-            <ul>Web & Mobile platforms</ul>
-            <ul>Developer tools</ul>
-            <ul>AI-powered workflows</ul>
-            <ul>Business automation & analytics</ul>
-            <ul>Healthcare and operations software</ul>
+        <br /><br />
+        <b>We build across:</b>
+        <br /><br />
+        <ul>Web & Mobile platforms</ul>
+        <ul>Developer tools</ul>
+        <ul>AI-powered workflows</ul>
+        <ul>Business automation & analytics</ul>
+        <ul>Healthcare and operations software</ul>
 
-            <br /><br />
-            IKIGAI APPLICATIONS operates in stealth mode, with multiple products under development and early users already validating our approach.
+        <br /><br />
+        IKIGAI APPLICATIONS operates in stealth mode, with multiple products under development and early users already validating our approach.
 
-            Our long-term vision is to create a portfolio of compounding software businesses — each small, powerful, and deeply loved by its users — rather than a single bloated platform.
+        Our long-term vision is to create a portfolio of compounding software businesses — each small, powerful, and deeply loved by its users — rather than a single bloated platform.
+
       </Section>
     </>
   );
