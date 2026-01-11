@@ -1,11 +1,27 @@
 import PageHeader from "@/components/PageHeader";
 import Section from "@/components/Section";
 
+export const metadata = {
+    title: "Contact",
+    description:
+      "Contact information for Krishna Kumar, software engineer.",
+
+      openGraph: {
+        title: "Contact | Krishna Kumar",
+        description:
+          "Contact information for Krishna Kumar, a software engineer working across healthcare, compliance, and embedded systems.",
+        type: "profile",
+        locale: "en_IN",
+        siteName: "Krishna Kumar",
+      },
+  };
+  
+
 export default function Contact() {
   return (
     <>
       <PageHeader title="Contact" />
-      <Section title="">
+      <Section title="Contact">
         <p className="font-bold">Feel free to reach out to me through any of the following channels:</p>
 
         <p><b>GitHub: </b> 

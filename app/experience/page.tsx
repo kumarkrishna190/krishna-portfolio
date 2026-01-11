@@ -1,12 +1,28 @@
 import PageHeader from "@/components/PageHeader";
 import Section from "@/components/Section";
 
+export const metadata = {
+  title: "Experience",
+  description:
+    "Professional experience of Krishna Kumar, including work across healthcare, compliance, sports technology, and robotics platforms.",
+
+  openGraph: {
+    title: "Experience | Krishna Kumar",
+    description:
+      "Professional experience of Krishna Kumar, including work across healthcare, compliance, sports technology, and robotics platforms.",
+    type: "profile",
+    locale: "en_IN",
+    siteName: "Krishna Kumar",
+  },
+};
+
+
 export default function Experience() {
   return (
     <>
       <PageHeader title="Experience" />
 
-      <Section title="">
+      <Section title="Noccarc Robotics">
         <a href="https://www.noccarc.com" target="_blank"><h1 className="text-3xl font-bold mb-2 underline">Noccarc Robotics</h1></a>
         <p className="text-gray-600 text-lg">Software Engineer II | 2023 – Present</p>
       
@@ -32,7 +48,7 @@ export default function Experience() {
         </p>
       </Section>
 
-      <Section title="">
+      <Section title="Allo Health">
       <a href="https://www.allohealth.com" target="_blank"><h1 className="text-3xl font-bold mb-2 underline">Allo Health</h1></a>
         <p className="text-gray-600 text-lg">Founding Software Engineer | 2021 – 2023</p>
       
@@ -47,28 +63,30 @@ export default function Experience() {
           Building the core web application using Next.js & TypeScript
 
           Developing backend services in Node.js
-
+          <br /><br />
           Creating and maintaining marketing websites using Webflow
 
           Setting up and managing growth & analytics pipelines:
-
-          Google Ads
-
-          Google Tag Manager
-
-          Google Analytics
-
-          Facebook Ads
-
-          Implementing conversion tracking, funnels, and attribution systems
-
-          Optimizing landing pages and campaigns for high-conversion healthcare marketing
-
+          <ul className="font-bold">
+            <br />
+            <li>Google Ads</li>
+            <br />
+            <li>Google Tag Manager</li>
+            <br />
+            <li>Google Analytics</li>
+            <br />
+            <li>Facebook Ads</li>
+            <br />
+            <li>Implementing conversion tracking, funnels, and attribution systems</li>
+            <br />
+            <li>Optimizing landing pages and campaigns for high-conversion healthcare marketing</li>
+            <br />
+          </ul>
           This role combined engineering, product, and growth, giving me end-to-end ownership of both code and business outcomes.
         </p>
       </Section>
 
-      <Section title="">
+      <Section title="Noya And Unibook">
         <h1 className="text-3xl font-bold mb-2">Noya And Unibook</h1>
         <p className="text-gray-600 text-lg">Lead Software Engineer | 2020 – 2021</p>
       
@@ -93,7 +111,7 @@ export default function Experience() {
         </p>
       </Section>
 
-      <Section title="">
+      <Section title="Turbo Comply">
       <a href="https://www.turbocomply.com" target="_blank"><h1 className="text-3xl font-bold mb-2 underline">Turbo Comply</h1></a>
         <p className="text-gray-600 text-lg">Software Engineer (Consultant) | 2020 – 2021</p>
       
@@ -114,7 +132,7 @@ export default function Experience() {
         </p>
       </Section>
 
-      <Section title="">
+      <Section title="Sporthood">
       <a href="https://www.sporthood.in" target="_blank"><h1 className="text-3xl font-bold mb-2 underline">Sporthood</h1></a>
         <p className="text-gray-600 text-lg">Software Engineer | 2019 – 2020</p>
       
@@ -138,40 +156,47 @@ export default function Experience() {
         </p>
       </Section>
 
-      <Section title="">
-        <h1 className="text-3xl font-bold mb-2 underline">Founded IKIGAI APPLICATIONS</h1>
+      <Section title="Founded IKIGAI APPLICATIONS">
+        <h1 id="ikigai" className="text-3xl font-bold mb-2 underline">Founded IKIGAI APPLICATIONS</h1>
         <p className="text-gray-600 text-lg italic">“Building focused software that quietly powers the world’s most important work.”</p>
       
-        <b>IKIGAI APPLICATIONS</b> is a product-driven technology studio building a new generation of high-leverage software tools for founders, creators, and modern businesses.
+            <b>IKIGAI APPLICATIONS</b> is a product-driven technology studio building a new generation of high-leverage software tools for founders, creators, and modern businesses.
 
-        We focus on identifying deep workflow pain points — places where people lose time, money, or clarity — and turning them into simple, elegant, and scalable products.
-        <br /><br /><br />
-        <b>Our philosophy is inspired by Ikigai:</b>
-        <br />
+            We focus on identifying deep workflow pain points — places where people lose time, money, or clarity — and turning them into simple, elegant, and scalable products.
+            <br /><br /><br />
+            <b>Our philosophy is inspired by Ikigai:</b>
+            <br />
 
-        Building products that sit at the intersection of what people need, what they love to use, and what creates real economic value.
+            Building products that sit at the intersection of what people need, what they love to use, and what creates real economic value.
 
-        Rather than betting on a single product, <b>IKIGAI</b> is structured as a multi-product company, where each application is designed to:
-        <br />
-        <br />
-        <ul>Solve one specific, painful problem</ul>
-        <ul>Be highly focused and easy to adopt</ul>
-        <ul>Scale into a standalone, profitable SaaS</ul>
+            Rather than betting on a single product, <b>IKIGAI</b> is structured as a multi-product company, where each application is designed to:
+            <br />
+            <br />
+            <ul>
+              <li>Solve one specific, painfli problem</li>
+              <br />
+              <li>Be highly focused and easy to adopt</li>
+              <br />
+              <li>Scale into a standalone, profitable SaaS</li>
+            </ul>
+            <br /><br />
+            <b>We build across:</b>
+            <br /><br />
+            <ul>
+              <li>Web & Mobile platforms</li>
+              <br />
+              <li>Developer tools</li>
+              <br />
+              <li>AI-powered workflows</li>
+              <br />
+              <li>Business automation & analytics</li>
+              <br />
+              <li>Healthcare and operations software</li>
+            </ul>
+            <br /><br />
+            IKIGAI APPLICATIONS operates in stealth mode, with multiple products under development and early users already validating our approach.
 
-        <br /><br />
-        <b>We build across:</b>
-        <br /><br />
-        <ul>Web & Mobile platforms</ul>
-        <ul>Developer tools</ul>
-        <ul>AI-powered workflows</ul>
-        <ul>Business automation & analytics</ul>
-        <ul>Healthcare and operations software</ul>
-
-        <br /><br />
-        IKIGAI APPLICATIONS operates in stealth mode, with multiple products under development and early users already validating our approach.
-
-        Our long-term vision is to create a portfolio of compounding software businesses — each small, powerful, and deeply loved by its users — rather than a single bloated platform.
-
+            Our long-term vision is to create a portfolio of compounding software businesses — each small, powerful, and deeply loved by its users — rather than a single bloated platform.
       </Section>
     </>
   );

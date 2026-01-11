@@ -22,7 +22,7 @@ export default function Footer() {
   
             {/* Work */}
             <div>
-              <h4 className="text-sm font-semibold text-neutral-900 uppercase tracking-wide">
+              <h4 className="text-sm font-semibold uppercase tracking-wide">
                 Work
               </h4>
               <ul className="mt-4 space-y-3 text-sm text-neutral-600">
@@ -35,7 +35,7 @@ export default function Footer() {
   
             {/* Connect */}
             <div>
-              <h4 className="text-sm font-semibold text-neutral-900 uppercase tracking-wide">
+              <h4 className="text-sm font-semibold uppercase tracking-wide">
                 Connect
               </h4>
               <ul className="mt-4 space-y-3 text-sm text-neutral-600">
@@ -57,7 +57,7 @@ export default function Footer() {
   
             {/* Products */}
             <div>
-              <h4 className="text-sm font-semibold text-neutral-900 uppercase tracking-wide">
+              <h4 className="text-sm font-semibold uppercase tracking-wide">
                 Products
               </h4>
               <ul className="mt-4 space-y-3 text-sm text-neutral-600">

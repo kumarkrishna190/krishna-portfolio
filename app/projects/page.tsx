@@ -2,6 +2,22 @@ import PageHeader from "@/components/PageHeader";
 import Section from "@/components/Section";
 import Image from "next/image";
 
+export const metadata = {
+    title: "Projects",
+    description:
+      "Selected software projects involving healthcare monitoring, embedded user interfaces, and real-time data systems.",
+
+    openGraph: {
+        title: "Projects | Krishna Kumar",
+        description:
+            "Selected software projects involving healthcare monitoring, embedded user interfaces, and real-time data systems.",
+        type: "profile",
+        locale: "en_IN",
+        siteName: "Krishna Kumar",
+    },
+};
+  
+
 export default function Projects() {
   return (
     <>
@@ -12,9 +28,6 @@ export default function Projects() {
 
             {/* Hero */}
             <section className="max-w-3xl">
-            {/* <h1 className="text-4xl md:text-5xl font-bold tracking-tight text-neutral-900">
-                Projects
-            </h1> */}
             <p className="mt-1 text-lg text-neutral-600 leading-relaxed">
                 I build software that lives in the real world — powering hospitals,
                 startups, and fast-moving teams.  

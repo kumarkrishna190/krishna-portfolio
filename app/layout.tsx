@@ -9,7 +9,7 @@ export const metadata = {
     template: "%s | Krishna Kumar",
   },
   description:
-    "Krishna Kumar is a software engineer working on healthcare software, embedded systems, and full-stack applications.",
+    "Krishna Kumar is a software engineer working on healthcare software, embedded systems, and full-stack web and mobile applications.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
