@@ -23,16 +23,16 @@ export default function Projects() {
     <>
       <PageHeader title="Projects" />
 
-        <main className="min-h-screen bg-white">
+        <main className="min-h-screen">
         <div className="mx-auto max-w-7xl px-3">
 
             {/* Hero */}
             <section className="max-w-3xl">
-            <p className="mt-1 text-lg text-neutral-600 leading-relaxed">
+            <p className="mt-1 text-lg leading-relaxed">
                 I build software that lives in the real world — powering hospitals,
                 startups, and fast-moving teams.  
                 These are selected projects that reflect my focus on
-                <span className="font-medium text-neutral-800"> reliability, performance, and product thinking.</span>
+                <span className="font-medium font-semibold"> reliability, performance, and product thinking.</span>
             </p>
             </section>
 
@@ -88,7 +88,7 @@ export default function Projects() {
             />
 
             </section>
-
+            <br /> <br />
         </div>
         </main>
     </>
@@ -114,7 +114,7 @@ function ProjectCard({
                     </span>
                 </div>
 
-                <h3 className="mt-4 text-xl font-semibold text-neutral-900">
+                <h3 className="mt-4 text-xl font-semibold">
                     {title}
                 </h3>
 
@@ -123,7 +123,7 @@ function ProjectCard({
                 </p>
 
                 <p className="mt-6 text-sm text-neutral-500">
-                    <span className="font-medium text-neutral-700">Tech:</span> {tech}
+                    <span className="font-medium">Tech:</span> {tech}
                 </p>
             </div>
         );

@@ -22,12 +22,12 @@ export default function Home() {
   return (
     <>
       <Hero />
-      <Section title="Overview">
+      <Section title="Introduction">
         <h1 className="text-3xl font-bold mb-2">Krishna Kumar</h1>
         <p className="text-gray-600 text-lg">Software Engineer and Product Designer</p>
       </Section>
 
-      <Section title="Background">
+      <Section title="Overview">
       <p>
         <b>Krishna Kumar</b> is an Indian software engineer and <em>technology entrepreneur </em> 
         known for his work in healthcare software systems, embedded user interfaces, 
@@ -48,14 +48,15 @@ export default function Home() {
         />
       </div>
       <br /> <br />
-      <Section title="Personal Focus">
+      <Section title="">
         <h1 className="text-3xl font-bold mb-2">Early life and education</h1>
         <p className="text-gray-600 text-lg">1st July, 1996 - present</p>
       </Section>
 
-      <Section title="Early Life">
+      <Section title="">
       <p>
         <b>Krishna Kumar</b> was born in a small town in <b>Sonebhadra</b> district of Uttar Pradesh, India. 
+        Grew up in a big family as the eldest, with six eldest siblings.
         He persued his early education in local schools before moving to a boarding school named <b>Sunbeam English School, Bhagwanpur</b>.
         Later pursued formal education in engineering and developed from <b>SMVIT (VTU)</b> situated in Bengaluru, Karnataka. 
         With an early interest in software systems, particularly low-level programming, embedded interfaces, and performance-critical applications,
@@ -69,8 +70,7 @@ export default function Home() {
       <hr />
         <br /> <br />
 
-        <Section title="Areas of Work">
-        <h1 className="text-3xl font-bold mb-2">Work Life</h1>
+        <Section title="">
         <a href="https://www.noccarc.com" target="_blank"><h1 className="text-3xl font-bold mb-2 underline">Noccarc Robotics</h1></a>
         <p className="text-gray-600 text-lg">Software Engineer II | 2023 – Present</p>
       
@@ -96,7 +96,7 @@ export default function Home() {
         </p>
       </Section>
 
-      <Section title="Allo Health">
+      <Section title="">
       <a href="https://www.allohealth.com" target="_blank"><h1 className="text-3xl font-bold mb-2 underline">Allo Health</h1></a>
         <p className="text-gray-600 text-lg">Founding Software Engineer | 2021 – 2023</p>
       
@@ -113,8 +113,9 @@ export default function Home() {
           Developing backend services in Node.js
           <br /><br />
           Creating and maintaining marketing websites using Webflow
-
+        
           Setting up and managing growth & analytics pipelines:
+        </p>
           <ul className="font-bold">
             <br />
             <li>Google Ads</li>
@@ -130,11 +131,12 @@ export default function Home() {
             <li>Optimizing landing pages and campaigns for high-conversion healthcare marketing</li>
             <br />
           </ul>
+        <p>
           This role combined engineering, product, and growth, giving me end-to-end ownership of both code and business outcomes.
         </p>
       </Section>
 
-      <Section title="Noya And Unibook">
+      <Section title="">
         <h1 className="text-3xl font-bold mb-2">Noya And Unibook</h1>
         <p className="text-gray-600 text-lg">Lead Software Engineer | 2020 – 2021</p>
       
@@ -159,7 +161,7 @@ export default function Home() {
         </p>
       </Section>
 
-      <Section title="Turbo Comply">
+      <Section title="">
       <a href="https://www.turbocomply.com" target="_blank"><h1 className="text-3xl font-bold mb-2 underline">Turbo Comply</h1></a>
         <p className="text-gray-600 text-lg">Software Engineer (Consultant) | 2020 – 2021</p>
       
@@ -180,7 +182,7 @@ export default function Home() {
         </p>
       </Section>
 
-      <Section title="Sporthood">
+      <Section title="">
       <a href="https://www.sporthood.in" target="_blank"><h1 className="text-3xl font-bold mb-2 underline">Sporthood</h1></a>
         <p className="text-gray-600 text-lg">Software Engineer | 2019 – 2020</p>
       
@@ -204,10 +206,10 @@ export default function Home() {
         </p>
       </Section>
 
-      <Section title="IKIGAI APPLICATIONS">
+      <Section title="">
         <h1 id="ikigai" className="text-3xl font-bold mb-2 underline">Founded IKIGAI APPLICATIONS</h1>
         <p className="text-gray-600 text-lg italic">“Building focused software that quietly powers the world’s most important work.”</p>
-      
+        <p>
             <b>IKIGAI APPLICATIONS</b> is a product-driven technology studio building a new generation of high-leverage software tools for founders, creators, and modern businesses.
 
             We focus on identifying deep workflow pain points — places where people lose time, money, or clarity — and turning them into simple, elegant, and scalable products.
@@ -220,6 +222,7 @@ export default function Home() {
             Rather than betting on a single product, <b>IKIGAI</b> is structured as a multi-product company, where each application is designed to:
             <br />
             <br />
+          </p>
             <ul>
               <li>Solve one specific, painfli problem</li>
               <br />
@@ -242,9 +245,11 @@ export default function Home() {
               <li>Healthcare and operations software</li>
             </ul>
             <br /><br />
+          <p>
             IKIGAI APPLICATIONS operates in stealth mode, with multiple products under development and early users already validating our approach.
 
             Our long-term vision is to create a portfolio of compounding software businesses — each small, powerful, and deeply loved by its users — rather than a single bloated platform.
+          </p>
       </Section>
     </>
   );

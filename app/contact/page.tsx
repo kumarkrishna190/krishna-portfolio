@@ -21,7 +21,7 @@ export default function Contact() {
   return (
     <>
       <PageHeader title="Contact" />
-      <Section title="Contact">
+      <Section title="">
         <p className="font-bold">Feel free to reach out to me through any of the following channels:</p>
 
         <p><b>GitHub: </b> 

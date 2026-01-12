@@ -22,7 +22,7 @@ export default function Experience() {
     <>
       <PageHeader title="Experience" />
 
-      <Section title="Noccarc Robotics">
+      <Section title="">
         <a href="https://www.noccarc.com" target="_blank"><h1 className="text-3xl font-bold mb-2 underline">Noccarc Robotics</h1></a>
         <p className="text-gray-600 text-lg">Software Engineer II | 2023 – Present</p>
       
@@ -48,7 +48,7 @@ export default function Experience() {
         </p>
       </Section>
 
-      <Section title="Allo Health">
+      <Section title="">
       <a href="https://www.allohealth.com" target="_blank"><h1 className="text-3xl font-bold mb-2 underline">Allo Health</h1></a>
         <p className="text-gray-600 text-lg">Founding Software Engineer | 2021 – 2023</p>
       
@@ -67,6 +67,7 @@ export default function Experience() {
           Creating and maintaining marketing websites using Webflow
 
           Setting up and managing growth & analytics pipelines:
+        </p>
           <ul className="font-bold">
             <br />
             <li>Google Ads</li>
@@ -82,11 +83,12 @@ export default function Experience() {
             <li>Optimizing landing pages and campaigns for high-conversion healthcare marketing</li>
             <br />
           </ul>
+        <p>
           This role combined engineering, product, and growth, giving me end-to-end ownership of both code and business outcomes.
         </p>
       </Section>
 
-      <Section title="Noya And Unibook">
+      <Section title="">
         <h1 className="text-3xl font-bold mb-2">Noya And Unibook</h1>
         <p className="text-gray-600 text-lg">Lead Software Engineer | 2020 – 2021</p>
       
@@ -111,7 +113,7 @@ export default function Experience() {
         </p>
       </Section>
 
-      <Section title="Turbo Comply">
+      <Section title="">
       <a href="https://www.turbocomply.com" target="_blank"><h1 className="text-3xl font-bold mb-2 underline">Turbo Comply</h1></a>
         <p className="text-gray-600 text-lg">Software Engineer (Consultant) | 2020 – 2021</p>
       
@@ -132,7 +134,7 @@ export default function Experience() {
         </p>
       </Section>
 
-      <Section title="Sporthood">
+      <Section title="">
       <a href="https://www.sporthood.in" target="_blank"><h1 className="text-3xl font-bold mb-2 underline">Sporthood</h1></a>
         <p className="text-gray-600 text-lg">Software Engineer | 2019 – 2020</p>
       
@@ -156,10 +158,10 @@ export default function Experience() {
         </p>
       </Section>
 
-      <Section title="Founded IKIGAI APPLICATIONS">
+      <Section title="">
         <h1 id="ikigai" className="text-3xl font-bold mb-2 underline">Founded IKIGAI APPLICATIONS</h1>
         <p className="text-gray-600 text-lg italic">“Building focused software that quietly powers the world’s most important work.”</p>
-      
+        <p>
             <b>IKIGAI APPLICATIONS</b> is a product-driven technology studio building a new generation of high-leverage software tools for founders, creators, and modern businesses.
 
             We focus on identifying deep workflow pain points — places where people lose time, money, or clarity — and turning them into simple, elegant, and scalable products.
@@ -172,6 +174,7 @@ export default function Experience() {
             Rather than betting on a single product, <b>IKIGAI</b> is structured as a multi-product company, where each application is designed to:
             <br />
             <br />
+          </p>
             <ul>
               <li>Solve one specific, painfli problem</li>
               <br />
@@ -194,9 +197,11 @@ export default function Experience() {
               <li>Healthcare and operations software</li>
             </ul>
             <br /><br />
+          <p>
             IKIGAI APPLICATIONS operates in stealth mode, with multiple products under development and early users already validating our approach.
 
             Our long-term vision is to create a portfolio of compounding software businesses — each small, powerful, and deeply loved by its users — rather than a single bloated platform.
+          </p>
       </Section>
     </>
   );

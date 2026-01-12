@@ -12,9 +12,9 @@ export default function Footer() {
               <p className="mt-3 text-sm">
                 Founder & Software Engineer
               </p>
-              <p className="mt-2 text-sm text-neutral-500 leading-relaxed">
+              <p className="mt-2 text-sm leading-relaxed">
                 Building high-leverage software at{" "}
-                <span className="font-medium text-neutral-800">
+                <span className="font-medium font-bold">
                   IKIGAI APPLICATIONS
                 </span>
               </p>

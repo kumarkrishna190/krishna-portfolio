@@ -7,7 +7,16 @@ html, body {
 }
 
 .dark html,
-.dark body {
+.dark body, .dark p, 
+.dark h1, 
+.dark h2, 
+.dark h3, 
+.dark h4, 
+.dark h5, 
+.dark h6, 
+.dark li, 
+.dark b
+{
   background-color: rgb(3, 7, 18);
-  color: rgb(229, 231, 235);
+  color: rgb(212, 215, 223);
 }
