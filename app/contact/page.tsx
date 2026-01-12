@@ -1,5 +1,7 @@
 import PageHeader from "@/components/PageHeader";
 import Section from "@/components/Section";
+// import { submitContact } from "./actions";
+import ContactForm from "@/components/contact";
 
 export const metadata = {
     title: "Contact",
@@ -63,6 +65,7 @@ export default function Contact() {
             </a>
         </p>
 
+        <ContactForm />
 
       </Section>
     </>
