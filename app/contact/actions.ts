@@ -2,10 +2,14 @@
 
 import { redis } from "@/lib/redis";
 
+export type ContactState = {
+  success: boolean;
+};
+
 export async function submitContact(
-  prevState: { success: boolean | null },
+  state: ContactState,
   formData: FormData
-) {
+): Promise<ContactState> {
   try {
     const entry = {
       name: formData.get("name"),
