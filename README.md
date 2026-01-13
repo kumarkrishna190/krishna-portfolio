@@ -2,7 +2,7 @@
 
 This repository contains the source code for my **personal portfolio website**, built to showcase my work, skills, and products under **IKIGAI Applications**.
 
-🚀 Live Portfolio: *(Add your live site link here when deployed)*
+🚀 Live Portfolio: [](https://krishna-portfolio-lime.vercel.app)
 
 ---
 
