@@ -61,9 +61,11 @@ export default function Footer() {
                 Products
               </h4>
               <ul className="mt-4 space-y-3 text-sm text-neutral-600">
-                <li><span>IKIGAI APPLICATIONS</span></li>
+                <li><a href="/apps" className="hover:text-neutral-900 underline">PingMe</a></li>
+                <li><a href="/apps/pingme/privacy" className="hover:text-neutral-900 underline">PingMe Privacy</a></li>
+                <li><a href="/apps/smart2048/privacy" className="hover:text-neutral-900 underline">2048 Privacy</a></li>
+                <li><a href="/apps/smart2048/terms" className="hover:text-neutral-900 underline">2048 Terms</a></li>
                 <li><span>Stealth Products</span></li>
-                <li><span>Case Studies</span></li>
               </ul>
             </div>
   
