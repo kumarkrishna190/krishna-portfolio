@@ -18,6 +18,14 @@ export const metadata = {
 
 const apps = [
   {
+    name: "SettleUp",
+    tagline: "Split bills with friends. Track group expenses and settle up.",
+    description:
+      "A shared expense tracker for Android. Create groups, log expenses, see who owes whom, record settlements, and get activity alerts with SettleUp Pro.",
+    privacyHref: "/apps/settleup/privacy",
+    termsHref: "/apps/settleup/terms",
+  },
+  {
     name: "PingMe",
     tagline: "One number. Any communication channel.",
     description:
