@@ -62,11 +62,15 @@ export default function Footer() {
               </h4>
               <ul className="mt-4 space-y-3 text-sm text-neutral-600">
                 <li><a href="/apps" className="hover:text-neutral-900 underline">All apps</a></li>
+                <li><a href="/apps/familytree/privacy" className="hover:text-neutral-900 underline">Family Tree Privacy</a></li>
+                <li><a href="/apps/familytree/terms" className="hover:text-neutral-900 underline">Family Tree Terms</a></li>
                 <li><a href="/apps/settleup/privacy" className="hover:text-neutral-900 underline">SettleUp Privacy</a></li>
                 <li><a href="/apps/settleup/terms" className="hover:text-neutral-900 underline">SettleUp Terms</a></li>
                 <li><a href="/apps/pingme/privacy" className="hover:text-neutral-900 underline">PingMe Privacy</a></li>
                 <li><a href="/apps/smart2048/privacy" className="hover:text-neutral-900 underline">2048 Privacy</a></li>
                 <li><a href="/apps/smart2048/terms" className="hover:text-neutral-900 underline">2048 Terms</a></li>
+                <li><a href="/apps/sudokuelite/privacy" className="hover:text-neutral-900 underline">Sudoku Elite Privacy</a></li>
+                <li><a href="/apps/sudokuelite/terms" className="hover:text-neutral-900 underline">Sudoku Elite Terms</a></li>
               </ul>
             </div>
   

@@ -18,6 +18,14 @@ export const metadata = {
 
 const apps = [
   {
+    name: "Family Tree",
+    tagline: "Build your family tree. Find how everyone is related.",
+    description:
+      "A local-first family tree app for Android. Add members, link parents, spouses, and children, discover relationship paths, and share a text summary — all stored on your device.",
+    privacyHref: "/apps/familytree/privacy",
+    termsHref: "/apps/familytree/terms",
+  },
+  {
     name: "SettleUp",
     tagline: "Split bills with friends. Track group expenses and settle up.",
     description:
@@ -40,6 +48,14 @@ const apps = [
       "A polished take on the classic 2048 tile puzzle for Android. Smooth animations, local high scores, haptic feedback, and ad-supported free gameplay.",
     privacyHref: "/apps/smart2048/privacy",
     termsHref: "/apps/smart2048/terms",
+  },
+  {
+    name: "Sudoku Elite",
+    tagline: "Premium daily Sudoku with streaks, calm design, and smart hints.",
+    description:
+      "A focused Sudoku app for Android. Daily puzzles, practice mode, streak tracking, smart hints, progress stats, optional daily reminders, and ad-supported free gameplay.",
+    privacyHref: "/apps/sudokuelite/privacy",
+    termsHref: "/apps/sudokuelite/terms",
   },
 ];
 
